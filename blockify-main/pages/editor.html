@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockify</title>
+    <link rel="stylesheet" href="styles/compiled.css">
+</head>
+<body class="w-full h-full absolute bg-zinc-600">
+    <div id="navbar" class="w-full h-fit bg-zinc-800 flex flex-row  text-zinc-200 text-lg">
+        <p class="text-2xl font-bold border-r-2 w-1/5 text-center  border-zinc-700 hover:text-blue-400 cursor-pointer p-5">Blockify</p>
+    </div>
+    <div id="blockly-container" class="w-full h-full bg-zinc-900 flex flex-row absolute">
+        <div id= "toolbox" class="w-1/5 h-full bg-zinc-500">
+        </div>
+        <div class="blockly-workspace w-4/5 h-full bg-zinc-400"></div>
+        <script src="scripts/bundled/editor.js" defer></script>
+    </body>
+    </html>
