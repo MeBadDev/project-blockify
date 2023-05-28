@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "clear; echo 'Build Started'; npx webpack; echo '\n\n Build Complted'"
   },
   "keywords": [],
   "author": "",
